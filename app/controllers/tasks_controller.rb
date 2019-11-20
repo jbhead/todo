@@ -9,6 +9,9 @@ class TasksController < ApplicationController
     render json: task
   end
 
+  def show
+  end
+
   private
 
   def task_params
